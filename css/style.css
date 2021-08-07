@@ -84,6 +84,10 @@ body {
     color: black;
   }
 
+#greeting {
+    margin-top: 0px;
+}
+
 .mantraInput {
     text-align: center;
     margin-top: 2%;
@@ -103,6 +107,7 @@ body {
     font-size: 30px;
     outline: none;
 }
+
 
 .mantraSubmitBox {
     background-color: transparent; 
@@ -128,7 +133,7 @@ body {
   }
 
 .mantraExamples {
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
 }
 
