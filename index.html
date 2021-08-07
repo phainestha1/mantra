@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Mantra | Mantra yourself</title>
+
+</head>
+
+<body>
+    <!-- Clock Form -->
+    <div class="container">
+    <a href="https://nomadcoders.co/">
+        <img id="logo" src="image/nomadcoders.svg" alt="nomadcoderslogo" >
+    </a>
+    <h3 id="time"></h3> 
+    <h3 id="weather">
+        <span></span>
+        <span></span>
+    </h3>
+    </div>
+    <!-- Name Input Form -->
+    <form class="nameInput hidden" required> 
+        <h1>WELCOME TO MANTRA :) <br> Please tell me your name.</h1>
+
+        <input class="nameBox" type="text" required></input>
+        <br>
+        <button class="nameSubmitBox" type="submit">Submit</button>
+    </form>
+
+    <!-- Manra Input Form -->
+    <form class="mantraInput hidden" required> 
+        <h1 id="greeting"></h1>
+        <h1>Show your own to the world!</h1>
+
+        <input class="mantraBox" type="text" required></input>
+        <br>
+        <button class="mantraSubmitBox" type="submit">Submit</button>
+
+        <h2>What is Mantra?</h2> 
+        <h3> Mantra is a sacred sentence believed by practitioners to have magical or spiritual powers. </h3>
+        <h3>Look at this examples and tell us your own.</h3>
+        
+        <strong class="mantraExamples">
+            <p>"आल इज वेल! (AAL IZZ WELL!)"</p>
+            <p>"Create a life you can be proud of."</p>
+            <p>"Breathe in, I send myself love. Breathing out, I send love to someone else who needs it."</p>
+            <p>"Be in love with your life. Every minute of it."</p>
+            <p>"Don’t be afraid to give up the good and go for the great"</p>
+        </strong>
+    </form>
+
+    <!-- To-do-List Form -->
+    <form id="todo-form" class="todo-form hidden">
+        <h1>Be brave for your mantra</h1>
+        <h1 class="yourMantra"></h1>
+        <h3 class="author"></h3>
+        <br>
+            <h1>Make your day 100% completed !</h1>
+            <input id="todoListInputBox" type="text" required>
+    </form>
+
+    <ul id="todo-list"></ul>
+
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/moraleUp.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

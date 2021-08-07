@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MaruBuri-Regular';
+    background-size: 100% 100%;
+    background-color: black;
+    color: white;
+}
+
+.container::after {
+    text-align:center;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logo {
+    margin-top: 5px;
+    height: 40px;
+    width: 48px;
+    margin-left: 3%;
+    margin-right: 10px;
+    float: left;
+
+}
+
+#time {
+    float: none;
+    margin-top:20px;
+    margin-bottom: 0px;
+}
+
+#weather {
+    float: left;
+    margin-top: 0px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.nameInput {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.nameBox {
+    text-align: center;
+    height: 50px;
+    width: 40%;
+    border:  3px solid white;
+    border-radius: 4px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+    font-size: 30px;
+    outline: none;
+}
+
+.nameSubmitBox {
+    background-color: transparent; 
+    border: 3px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;  
+}
+
+.nameSubmitBox:hover {
+    background-color: white;
+    color: black;
+  }
+
+.mantraInput {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.mantraBox {
+    text-align: center;
+    height: 50px;
+    width: 50%;
+    border:  3px solid white;
+    border-radius: 4px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+    font-size: 30px;
+    outline: none;
+}
+
+.mantraSubmitBox {
+    background-color: transparent; 
+    border: 3px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.author {
+    text-align: center;
+    color: white;
+}
+
+.mantraSubmitBox:hover {
+    background-color: white;
+    color: black;
+  }
+
+.mantraExamples {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.todo-form {
+    text-align: center;
+    margin-top: 4%;
+}
+
+footer {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#todoListInputBox {
+    width: 30%;
+    background-color: transparent; 
+    border: 3px solid white;
+    border-style: hidden hidden solid hidden;
+    color: white;
+    font-size: 25px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+
+#todo-list{
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    list-style-type: none;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+
+}
+
