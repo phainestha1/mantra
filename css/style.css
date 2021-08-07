@@ -20,7 +20,7 @@ body {
 }
 
 #logo {
-    margin-top: 5px;
+    margin-top: 3px;
     height: 40px;
     width: 48px;
     margin-left: 3%;
@@ -31,13 +31,14 @@ body {
 
 #time {
     float: none;
-    margin-top:20px;
+    margin-top:4px;
     margin-bottom: 0px;
 }
 
 #weather {
     float: left;
-    margin-top: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
 
 }
 
@@ -85,7 +86,7 @@ body {
 
 .mantraInput {
     text-align: center;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .mantraBox {

@@ -1,4 +1,4 @@
-const moraleUp = document.querySelector("#todo-form h1:first-child");
+const moraleUp = document.querySelector("#todo-form h2:first-child");
 const messageArr = [
     "Be brave for your mantra!",
     "Catch your day with your mantra!",

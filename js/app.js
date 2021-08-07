@@ -116,7 +116,7 @@ function paintToDo(newTodo) {
     li.appendChild(button);
   
     toDoList.appendChild(li);
-    
+
 };
 
 function deleteTodo(event) {
